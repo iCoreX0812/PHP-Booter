@@ -1,0 +1,27 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    background: url("../wallhaven-72155.jpg") no-repeat fixed center;
+    color: #dddddd;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+.jumbotron {
+    border-radius: 10px;
+    max-height: 100px;
+    line-height: 50%;
+    border-style: inset;
+    border-color: #000;
+    border-width: thin;
+}
+
+.premier {
+    background-image:linear-gradient(to bottom, #642c2f, #481520);
+}
+
+.deuxieme {
+    background-image:linear-gradient(to bottom, #14518f, #1e4877);
+}
