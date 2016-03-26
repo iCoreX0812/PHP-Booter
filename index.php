@@ -1,16 +1,15 @@
 <html>
+	<head>
+		<title>~Crackbooter~</title>
+		<link href="css/style.css" rel="stylesheet">
+		<img src= "http://discover-santos.de/gg/crackstresser.gif" alt="test"/>
+		<!-- Counter -->
+		<a href='http://www.blogutils.net/olct/' id='lnolt_' target='_blank' style='font-family:Verdana;font-size:17px;font-weight:bold;text-decoration:none;color:lime'>
+		<script language='JavaScript' src='http://blogutils.net/olct/online.php?site=discover-santos.de/gg&interval=600'></script></a><a href='http://www.blogutils.net/' target='_blank' style='font-family:Verdana;font-size:17px;font-weight:bold;text-decoration:none;color:lime'> online</a>
+		<!-- Counter -->
+	</head>
 <body>
-<center>
-<font color="00FF00">
-<pre>
-<title>~Crackbooter~</title>
-<link href="css/style.css" rel="stylesheet">
-<img src= "http://discover-santos.de/gg/crackstresser.gif" alt="test"/>
-<!-- Counter -->
-<a href='http://www.blogutils.net/olct/' id='lnolt_' target='_blank' style='font-family:Verdana;font-size:17px;font-weight:bold;text-decoration:none;color:lime'>
-<script language='JavaScript' src='http://blogutils.net/olct/online.php?site=discover-santos.de/gg&interval=600'></script></a><a href='http://www.blogutils.net/' target='_blank' style='font-family:Verdana;font-size:17px;font-weight:bold;text-decoration:none;color:lime'> online</a>
-<!-- Counter -->
-</pre>
+
 <?php
     
     if(isset($_GET['host'])&&isset($_GET['time'])){
@@ -62,10 +61,6 @@
 
 <script language=JavaScript>
 <!--
-
-//Disable right mouse click Script
-//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive
-//For full source code, visit http://www.dynamicdrive.com
 
 var message="Geh woanders kopieren.";
 
