@@ -69,16 +69,7 @@ $( document ).ready(function() {
 						  document.getElementById("c").style.display ="none";
 				}, false);
 
-				xhr.download.addEventListener("progress", function(evt) {
-					 if (evt.lengthComputable) {
-						 var percentComplete = evt.loaded / evt.total;
-						 document.getElementById("progressbar").style.width = percentComplete + "%";
-					 }
-			  }, false);
-
-			  xhr.download.addEventListener("loadend", function(evt) {
-						document.getElementById("c").style.display ="none";
-			 }, false);
+			
 		      return xhr;
 		    },
 		    type: 'GET',
