@@ -65,7 +65,7 @@
 				 if(isset($_GET['host'])){
 					 echo "value='" . htmlentities($_GET['host']) . "'";
 				 }
-				 ?>placehodler="1.2.3.4" aria-describedby="basic-addon1">
+				 ?>placeholder="1.2.3.4" aria-describedby="basic-addon1">
 			 	</div>
 				<div class="input-group mbi">
 				 <span class="input-group-addon" id="basic-addon2">Sekunden</span>
@@ -73,7 +73,7 @@
 				 if(isset($_GET['time'])){
 					 echo "value='" . htmlentities($_GET['time']) . "'";
 				 }
-				 ?>placehodler="30" aria-describedby="basic-addon2">
+				 ?>placeholder="30" aria-describedby="basic-addon2">
 				</div>
 				<div class="input-group">
 				 <button type="submit" class="form-control btn btn-success">DownIT</button>
